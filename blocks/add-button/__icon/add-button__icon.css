@@ -4,10 +4,4 @@
     padding-top: 15px;
     padding-bottom: 15px;
     opacity: 100%;
-    transition: opacity 0.3s ease-in 0.05s;
-}
-
-
-.add-button__icon:hover {
-    opacity: 60%;
 }
