@@ -4,4 +4,17 @@
     flex-direction: column;
     gap: 20px;
     padding-bottom: 48px;
+    justify-content: center;
+    width: 100%;
 }
+
+@media (min-width: 900px) {
+    .feed
+    {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 17px;
+      padding-bottom: 67px;
+    }
+  }

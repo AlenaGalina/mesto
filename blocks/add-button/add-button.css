@@ -8,3 +8,9 @@
     border: 2px #ffffff solid;
     cursor: pointer;
 }
+
+@media (min-width: 900px) {
+    .add-button {
+        max-width: 150px;
+    }
+}

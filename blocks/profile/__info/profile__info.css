@@ -3,3 +3,9 @@
     width: 100%;
     padding: 26px 0 36px;
 }
+
+@media (min-width: 900px) {
+    .profile__info {
+        padding: 22px 20px 25px 30px;
+    }
+}

@@ -6,3 +6,10 @@
     width: 100%;
     padding-bottom: 36px;
 }
+
+@media (min-width: 900px) {
+    .profile {
+        flex-direction: row;
+        
+    }
+}

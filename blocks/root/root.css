@@ -4,4 +4,15 @@
     text-rendering: optimizeLegibility;
     color: #fff;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
 }
+
+@media (min-width: 900px) {
+    .root
+    {
+        padding: 0 200px;
+    }
+  }

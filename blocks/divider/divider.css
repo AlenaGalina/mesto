@@ -5,3 +5,9 @@
     border-width: 0;
     margin: 0;
 }
+
+@media (min-width: 900px) {
+    .divider {
+        max-width: 880px; 
+    }
+}

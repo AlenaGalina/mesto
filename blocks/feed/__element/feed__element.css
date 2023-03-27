@@ -1,9 +1,18 @@
 .feed__element {
     width: 100%;
-    min-height: 360px;
+    max-height: 360px;
     background-color: #fff;
     border-radius: 10px;
     margin: 0;
     display: flex;
     flex-direction: column;
 }
+
+@media (min-width: 900px) {
+    .feed__element
+    {
+      max-width: 282px;
+    }
+  }
+
+  
