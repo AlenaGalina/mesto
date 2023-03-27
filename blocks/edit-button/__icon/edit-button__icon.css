@@ -6,3 +6,11 @@
     opacity: 100%;
 }
 
+@media (min-width: 900px) {
+    .edit-button__icon {
+        width: 10px;
+        height: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+}
