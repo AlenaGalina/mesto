@@ -4,6 +4,7 @@
     font-weight: medium;
     text-align: center;
     margin: 0;
+    max-width: 320px;
 }
 
 @media (min-width: 900px) {

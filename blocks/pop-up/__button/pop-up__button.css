@@ -1,0 +1,14 @@
+.pop-up__button {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: normal;
+    border-style: none;
+    box-shadow: none;
+    height: 46px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+}

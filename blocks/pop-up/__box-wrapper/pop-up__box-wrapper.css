@@ -1,0 +1,16 @@
+.pop-up__box-wrapper {
+    width: 282px;
+    height: 358px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+@media  (min-width: 900px)  {
+    .pop-up__box-wrapper {
+        width: 470px;
+        height: 370px;
+        gap: 8px;
+    }
+}

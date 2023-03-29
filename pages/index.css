@@ -23,3 +23,12 @@
 @import url(../blocks/feed/__icon/feed__icon.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright.css/footer__copyright.css);
+@import url(../blocks/pop-up/pop-up.css);
+@import url(../blocks/pop-up/_open/pop-up_open.css);
+@import url(../blocks/pop-up/__box-wrapper/pop-up__box-wrapper.css);
+@import url(../blocks/pop-up/__close/pop-up__close.css);
+@import url(../blocks/pop-up/__box/pop-up__box.css);
+@import url(../blocks/pop-up/__header/pop-up__header.css);
+@import url(../blocks/pop-up/__input-wrapper/pop-up__input-wrapper.css);
+@import url(../blocks/pop-up/__input/pop-up__input.css);
+@import url(../blocks/pop-up/__button/pop-up__button.css);

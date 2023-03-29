@@ -8,6 +8,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
+    position: relative;
 }
 
 @media (min-width: 900px) {

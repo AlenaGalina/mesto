@@ -1,0 +1,13 @@
+.pop-up__input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 45px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 900px) {
+    .pop-up__input-wrapper {
+        padding-bottom: 48px;
+    }
+}
