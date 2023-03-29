@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Блог Mesto</title>
+    <title lang="ru">Блог Mesto</title>
     <link rel="stylesheet" href="./pages/index.css">
     <script src="./script.js" defer></script>  
 </head>
@@ -18,74 +18,74 @@
             <div class="profile__info">
                 <div class="profile__name-wrapper">
                     <h1 class="profile__name">Жак-Ив Кусто</h1>
-                    <button class="edit-button" type="button"><img class="edit-button__icon" src="./images/EditIcon.svg" alt="Иконка Изменения информации в виде карандаша"></button>
+                    <button class="edit-button" type="button"></button>
                 </div>
                 <p class="profile__profession">Исследователь океана</p>
             </div>
-            <button class="add-button" type="button"><img class="add-button__icon" src="./images/addIcon.svg" alt="Иконка Добавления в виде плюса"></button>
+            <button class="add-button" type="button"></button>
         </section>
         <section class="feed">
             <div class="feed__element">
                 <img class="feed__img" src="./images/Karachaevsk.png" alt="Церковь, утопающая в зелени">
                 <div class="feed__header-wrapper">
                     <h2 class="feed__header">Карачаевск</h2>
-                    <img class="feed__icon" src="./images/HeartStroke.svg" alt="иконка сердца с обводкой">
+                    <button class="feed__icon"></button>
                 </div>
             </div>
             <div class="feed__element">
                 <img class="feed__img" src="./images/Elbrus.png" alt="Гора Эльбруса в тумане на рассвете">
                 <div class="feed__header-wrapper">
                     <h2 class="feed__header">Гора Эльбрус</h2>
-                    <img class="feed__icon" src="./images/HeartStroke.svg" alt="иконка сердца с обводкой">
+                    <button class="feed__icon"></button>
                 </div>
             </div>
             <div class="feed__element">
                 <img class="feed__img" src="./images/Dombay.png" alt="Лес у подножия гор покрытых снегом">
                 <div class="feed__header-wrapper">
                     <h2 class="feed__header">Домбай</h2>
-                    <img class="feed__icon" src="./images/HeartStroke.svg" alt="иконка сердца с обводкой">
+                    <button class="feed__icon"></button>
                 </div>
             </div>
             <div class="feed__element">
                 <img class="feed__img" src="./images/Vestoviagan.png" alt="Дом на фоне гор освещенный солнцем">
                 <div class="feed__header-wrapper">
                     <h2 class="feed__header">Вествогёй</h2>
-                    <img class="feed__icon" src="./images/HeartStroke.svg" alt="иконка сердца с обводкой">
+                    <button class="feed__icon"></button>
                 </div>
             </div>
             <div class="feed__element">
                 <img class="feed__img" src="./images/Halstatt.png" alt="Маленькие домики на берегу реки на фоне гор">
                 <div class="feed__header-wrapper">
                     <h2 class="feed__header">Хальштат</h2>
-                    <img class="feed__icon" src="./images/HeartStroke.svg" alt="иконка сердца с обводкой">
+                    <button class="feed__icon"></button>
                 </div>
             </div>
             <div class="feed__element">
                 <img class="feed__img" src="./images/Lucern.png" alt="Вид на большое озеро и горы вокруг него">
                 <div class="feed__header-wrapper">
                     <h2 class="feed__header">Озеро Люцерн</h2>
-                    <img class="feed__icon" src="./images/HeartStroke.svg" alt="иконка сердца с обводкой">
+                    <button class="feed__icon"></button>
                 </div>
             </div>
         </section>
-        <footer class="footer">
-            <p class="footer__copyright">© 2020 Mesto Russia</p>
-        </footer>
-        <section class="pop-up">
-            <div class="pop-up__box-wrapper">
-            <img class="pop-up__close" src="./images/CloseIcon.svg" alt="Иконка крестик закрывает поп-ап">
-            <div class="pop-up__box">
-                <h3 class="pop-up__header">Редактировать профиль</h3>
-                <form class="pop-up__form">
-                <div class="pop-up__input-wrapper">
-                    <input class="pop-up__input pop-up__input_type_name" type="text" value="Жак-Ив Кусто">
-                    <input class="pop-up__input pop-up__input_type_prof" type="text" value="Исследователь океана">
-                </div>
-                <button class="pop-up__button" type="submit">Сохранить</button>
-                </form>
+    </main> 
+    <footer class="footer">
+        <p class="footer__copyright">© 2020 Mesto Russia</p>
+    </footer>
+    <div class="pop-up">
+        <div class="pop-up__box-wrapper">
+        <img class="pop-up__close" src="./images/CloseIcon.svg" alt="Иконка крестик закрывает поп-ап">
+        <div class="pop-up__box">
+            <h3 class="pop-up__header">Редактировать профиль</h3>
+            <form class="pop-up__form">
+            <div class="pop-up__input-wrapper">
+                <input class="pop-up__input pop-up__input_type_name" type="text" value="Жак-Ив Кусто">
+                <input class="pop-up__input pop-up__input_type_prof" type="text" value="Исследователь океана">
             </div>
-            </div>
-        </section>
-    </main>  
+            <button class="pop-up__button" type="submit">Сохранить</button>
+            </form>
+        </div>
+        </div>
+    </div>
 </body>
 </html>
