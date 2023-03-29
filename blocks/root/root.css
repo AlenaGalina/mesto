@@ -9,11 +9,12 @@
     flex-wrap: wrap;
     align-content: center;
     position: relative;
+    padding: 0 200px;
 }
 
-@media (min-width: 900px) {
+@media screen and (max-width: 900px) {
     .root
     {
-        padding: 0 200px;
+        padding: 0;
     }
   }

@@ -1,13 +1,13 @@
 .divider {
-    width: 100%;
+    max-width: 880px; 
     height: 1px;
     background-color: #545454;
     border-width: 0;
     margin: 0;
 }
 
-@media (min-width: 900px) {
+@media screen and (max-width: 900px) {
     .divider {
-        max-width: 880px; 
+        width: 100%;
     }
 }

@@ -1,17 +1,16 @@
 .profile__name {
-    font-size: 27px;
-    line-height: 33px;
-    font-weight: medium;
-    text-align: center;
     margin: 0;
     max-width: 320px;
+    text-align: left;
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: medium;
 }
 
-@media (min-width: 900px) {
+@media screen and (max-width: 900px) {
     .profile__name {
-        text-align: left;
-        font-size: 42px;
-        line-height: 48px;
-        font-weight: medium;
+        font-size: 27px;
+        line-height: 33px;
+        text-align: center;
     }
 }

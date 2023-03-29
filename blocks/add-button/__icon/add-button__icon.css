@@ -1,7 +1,14 @@
 .add-button__icon {
-    width: 16px;
-    height: 16px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    width: 22px;
+    height: 22px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     opacity: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    .add-button__icon {
+        width: 16px;
+        height: 16px;
+    }
 }

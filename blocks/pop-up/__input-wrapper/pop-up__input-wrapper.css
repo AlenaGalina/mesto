@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-@media (min-width: 900px) {
+@media screen and (max-width: 900px) {
     .pop-up__input-wrapper {
         padding-bottom: 48px;
     }
