@@ -3,18 +3,9 @@
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     text-rendering: optimizeLegibility;
     color: #fff;
-    margin: 0;
+    position: relative;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    position: relative;
-    padding: 0 200px;
+    align-items: center;
+    margin: 0;
 }
-
-@media screen and (max-width: 900px) {
-    .root
-    {
-        padding: 0;
-    }
-  }

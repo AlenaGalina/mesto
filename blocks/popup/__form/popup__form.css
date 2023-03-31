@@ -1,13 +1,13 @@
-.pop-up__input-wrapper {
+.popup__form {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding-bottom: 45px;
+    padding-bottom: 48px;
     box-sizing: border-box;
 }
 
 @media screen and (max-width: 900px) {
-    .pop-up__input-wrapper {
-        padding-bottom: 48px;
+    .popup__form {
+        padding-bottom: 45px;
     }
 }
