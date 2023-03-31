@@ -3,7 +3,6 @@ const editPopUp = document.querySelector(".popup");
 const closePopUp = editPopUp.querySelector(".popup__close");
 let nameInput = editPopUp.querySelector(".popup__input_type_name");
 let jobInput = editPopUp.querySelector(".popup__input_type_prof");
-const saveButton = editPopUp.querySelector(".popup__button");
 const editPopUpForm =  editPopUp.querySelector(".popup__form");
 let profileName = document.querySelector(".profile__name");
 let profileProf = document.querySelector(".profile__profession");
