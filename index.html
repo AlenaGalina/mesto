@@ -17,11 +17,11 @@
             <div class="profile__info">
                 <div class="profile__name-wrapper">
                     <h1 class="profile__name">Жак-Ив Кусто</h1>
-                    <button class="edit-button" type="button"></button>
+                    <button class="profile__edit-button" type="button"></button>
                 </div>
                 <p class="profile__profession">Исследователь океана</p>
             </div>
-            <button class="add-button" type="button"></button>
+            <button class="profile__add-button" type="button"></button>
         </section>
         <section class="feed">
             <div class="feed__element">
@@ -63,7 +63,7 @@
                 <img class="feed__img" src="./images/Lucern.png" alt="Вид на большое озеро и горы вокруг него">
                 <div class="feed__header-wrapper">
                     <h2 class="feed__header">Озеро Люцерн</h2>
-                    <button class="feed__icon"></button>
+                    <button class="feed__icon" type="button"></button>
                 </div>
             </div>
         </section>
@@ -72,15 +72,14 @@
         <p class="footer__copyright">© 2020 Mesto Russia</p>
     </footer>
     <div class="popup">
-        <button class="popup__close" name="close" type="button"></button>
         <div class="popup__container">
+            <button class="popup__close" aria-label="Иконка крестик закрывает поп-ап"></button>
             <h3 class="popup__header">Редактировать профиль</h3>
             <form class="popup__form">
                 <input class="popup__input popup__input_type_name" type="text" value="Жак-Ив Кусто" name="name">
                 <input class="popup__input popup__input_type_prof" type="text" value="Исследователь океана" name="job">
                 <button class="popup__button" type="submit">Сохранить</button>
             </form>
-            
         </div>
     </div>
 </body>

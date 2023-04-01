@@ -1,4 +1,4 @@
-const editButton = document.querySelector(".edit-button");
+const editButton = document.querySelector(".profile__edit-button");
 const editPopUp = document.querySelector(".popup");
 const closePopUp = editPopUp.querySelector(".popup__close");
 let nameInput = editPopUp.querySelector(".popup__input_type_name");
@@ -9,6 +9,8 @@ let profileProf = document.querySelector(".profile__profession");
 
 editButton.addEventListener('click', () => { 
     editPopUp.classList.add('popup_opened');
+    nameInput.value = profileName.textContent;
+    jobInput.value = profileProf.textContent;
 });
 
 closePopUp.addEventListener('click', () => {
@@ -18,11 +20,8 @@ closePopUp.addEventListener('click', () => {
 function handleFormSubmit (evt) {
     evt.preventDefault();
 
-    let name = nameInput.value;
-    profileName.textContent = name;
-
-    let job = jobInput.value;
-    profileProf.textContent = job;
+    profileName.textContent = nameInput.value;
+    profileProf.textContent = jobInput.value;
 
     editPopUp.classList.remove('popup_opened');
 };
