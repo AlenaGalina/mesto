@@ -6,7 +6,7 @@
     color: #000000;
     border: none;
     border-bottom-style: solid;
-    border-bottom-color: #00000020;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
     border-bottom-width: 1px;
     box-sizing: border-box;
     padding: 0 0 13px;

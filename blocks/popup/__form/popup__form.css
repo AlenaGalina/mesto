@@ -6,12 +6,12 @@
     background-color: #ffffff;
     gap: 30px;
     border-radius: 0 0 10px 10px;
-    max-width: 430px;
+    width: 430px;
 }
 
 @media screen and (max-width: 900px) {
     .popup__form {
-        max-width: 282px;
+        width: 282px;
         padding: 0 22px 25px;
     }
 }
