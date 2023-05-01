@@ -1,0 +1,18 @@
+.feed__icon-like_active {
+    width: 22px;
+    height: 19px;
+    cursor: pointer;
+    border: none;
+    background-image: url(../../../../images/HeartFill.svg);
+    background-size: cover;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    transition: opacity 0.4s ease-in-out;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.feed__icon-like_active:hover {
+    opacity: 0.5;
+}

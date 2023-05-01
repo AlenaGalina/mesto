@@ -1,4 +1,4 @@
-.feed__icon {
+.feed__icon-like {
     width: 22px;
     height: 19px;
     cursor: pointer;
@@ -13,6 +13,6 @@
     background-position: center;
 }
 
-.feed__icon:hover {
+.feed__icon-like:hover {
     opacity: 0.5;
 }

@@ -24,54 +24,13 @@
             <button class="profile__add-button" type="button"></button>
         </section>
         <section class="feed">
-            <div class="feed__element">
-                <img class="feed__img" src="./images/Karachaevsk.png" alt="Церковь, утопающая в зелени">
-                <div class="feed__header-wrapper">
-                    <h2 class="feed__header">Карачаевск</h2>
-                    <button class="feed__icon" type="button"></button>
-                </div>
-            </div>
-            <div class="feed__element">
-                <img class="feed__img" src="./images/Elbrus.png" alt="Гора Эльбруса в тумане на рассвете">
-                <div class="feed__header-wrapper">
-                    <h2 class="feed__header">Гора Эльбрус</h2>
-                    <button class="feed__icon" type="button"></button>
-                </div>
-            </div>
-            <div class="feed__element">
-                <img class="feed__img" src="./images/Dombay.png" alt="Лес у подножия гор покрытых снегом">
-                <div class="feed__header-wrapper">
-                    <h2 class="feed__header">Домбай</h2>
-                    <button class="feed__icon" type="button"></button>
-                </div>
-            </div>
-            <div class="feed__element">
-                <img class="feed__img" src="./images/Vestoviagan.png" alt="Дом на фоне гор освещенный солнцем">
-                <div class="feed__header-wrapper">
-                    <h2 class="feed__header">Вествогёй</h2>
-                    <button class="feed__icon" type="button"></button>
-                </div>
-            </div>
-            <div class="feed__element">
-                <img class="feed__img" src="./images/Halstatt.png" alt="Маленькие домики на берегу реки на фоне гор">
-                <div class="feed__header-wrapper">
-                    <h2 class="feed__header">Хальштат</h2>
-                    <button class="feed__icon" type="button"></button>
-                </div>
-            </div>
-            <div class="feed__element">
-                <img class="feed__img" src="./images/Lucern.png" alt="Вид на большое озеро и горы вокруг него">
-                <div class="feed__header-wrapper">
-                    <h2 class="feed__header">Озеро Люцерн</h2>
-                    <button class="feed__icon" type="button"></button>
-                </div>
-            </div>
+
         </section>
     </main> 
     <footer class="footer">
         <p class="footer__copyright">© 2020 Mesto Russia</p>
     </footer>
-    <div class="popup">
+    <div class="popup popup_profile">
         <div class="popup__container">
             <button class="popup__close" aria-label="Иконка крестик закрывает поп-ап" type="button"></button>
             <h3 class="popup__header">Редактировать профиль</h3>
@@ -82,5 +41,33 @@
             </form>
         </div>
     </div>
+    <div class="popup popup_place">
+        <div class="popup__container">
+            <button class="popup__close" aria-label="Иконка крестик закрывает поп-ап" type="button"></button>
+            <h3 class="popup__header">Новое место</h3>
+            <form class="popup__form">
+                <input class="popup__input popup__input_type_place-name" type="text" value="Название" name="place-name">
+                <input class="popup__input popup__input_type_link-place" type="text" value="Ссылка на картинку" name="link-place">
+                <button class="popup__button" type="submit">Cоздать</button>
+            </form>
+        </div>
+    </div>
+    <div class="feed__bigimg-popup">
+        <div class="feed__bigimg-wrapper">
+            <button class="popup__close" aria-label="Иконка крестик закрывает поп-ап" type="button"></button>
+            <img class="feed__bigimg">
+            <p class="feed__bigimg-caption"></p>
+        </div>
+    </div>
+    <template id="place-card">
+        <div class="feed__element">
+            <button class="feed__icon-delete" type="button"></button>
+            <img class="feed__img">
+            <div class="feed__header-wrapper">
+                <h2 class="feed__header"></h2>
+                <button class="feed__icon-like" type="button"></button>
+            </div>
+        </div>
+    </template>
 </body>
 </html>
