@@ -94,10 +94,10 @@ const createCardElement = (cardData) => {
     const cardTitle = cardElement.querySelector('.feed__header');
     const placeDeleteButton = cardElement.querySelector('.feed__icon-delete');
     const placeLikeButton = cardElement.querySelector('.feed__icon-like');
-    const bigImgPopUp = document.querySelector('.feed__bigimg-popup');
+    const bigImgPopUp = document.querySelector('.popup__bigimg-popup');
     const bigImgPopUpclose = bigImgPopUp.querySelector('.popup__close');
-    const bigImg = document.querySelector('.feed__bigimg');
-    const bigImgCaption = document.querySelector('.feed__bigimg-caption');
+    const bigImg = document.querySelector('.popup__bigimg');
+    const bigImgCaption = document.querySelector('.popup__bigimg-caption');
 
     // наполнение карточки
 
