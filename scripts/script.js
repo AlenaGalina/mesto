@@ -95,7 +95,7 @@ function handleProfileFormSubmit (evt) {
   profileName.textContent = nameInput.value;
   profileProf.textContent = jobInput.value;
 
-  editPopUp.classList.remove('popup_opened');
+  closePopup(editPopUp);
 };
 
 editPopUpForm.addEventListener('submit', handleProfileFormSubmit); 
@@ -144,7 +144,7 @@ const createCardElement = (cardData) => {
     // поп-ап
 
     cardImg.addEventListener('click', () => {
-        bigImgPopUp.classList.add('popup_opened');
+        openPopup(bigImgPopUp);
         bigImg.src = cardImg.src;
         bigImg.alt = cardTitle.textContent;
         bigImgCaption.textContent = cardTitle.textContent;
@@ -152,7 +152,7 @@ const createCardElement = (cardData) => {
     });
 
     bigImgPopUpclose.addEventListener('click', () => {
-        bigImgPopUp.classList.remove('popup_opened');
+        closePopup(bigImgPopUp);
     });
 
     return cardElement;
@@ -174,7 +174,7 @@ function handleCardAdding (evt) {
     };
     
     cardContainer.prepend(createCardElement(manuallCardData));
-    placePopUp.classList.remove('popup_opened');
+    closePopup(placePopUp);
     addPlacePopUpForm.reset();
 };
 
