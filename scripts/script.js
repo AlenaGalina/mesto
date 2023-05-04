@@ -30,6 +30,9 @@ const addNewCard = placePopUp.querySelector(".popup__button");
 const cardTemplate = document.getElementById('place-card');
 const cardContainer = document.querySelector(".feed");
 
+// Обработка крестиков
+const closeButtons = document.querySelectorAll('.popup__close');
+
 // Массив данных
 const initialCards = [
     {
@@ -72,6 +75,11 @@ function closePopup(popup) {
   popup.classList.remove('popup_opened');
 }
 
+// Обработка крестиков
+closeButtons.forEach((button) => {
+  const popup = button.closest('.popup');
+  button.addEventListener('click', () => closePopup(popup));
+});
 
 
 // ИЗМЕНЕНИЕ ИНФЫ ПРОФИЛЯ
@@ -81,11 +89,6 @@ editButton.addEventListener('click', () => {
   openPopup(editPopUp);
   nameInput.value = profileName.textContent;
   jobInput.value = profileProf.textContent;
-});
-
-//Закрытие
-profileClosePopUp.addEventListener('click', () => {
-  closePopup(editPopUp);
 });
 
 //Отправление инфы по сабмиту
@@ -106,11 +109,6 @@ editPopUpForm.addEventListener('submit', handleProfileFormSubmit);
 // Открыть поп-ап
 placeButton.addEventListener('click', () => { 
   openPopup(placePopUp);
-});
-
-// Закрыть поп-ап
-closePopUpPlace.addEventListener('click', () => {
-  closePopup(placePopUp);
 });
 
 // Добавление контента в темплейт
@@ -151,10 +149,6 @@ const createCardElement = (cardData) => {
 
     });
 
-    bigImgPopUpclose.addEventListener('click', () => {
-        closePopup(bigImgPopUp);
-    });
-
     return cardElement;
 };
 
@@ -165,6 +159,7 @@ initialCards.forEach((card) => {
 
 
 // Добавление новой карточки в сетку
+
 function handleCardAdding (evt) {
     evt.preventDefault();
     
